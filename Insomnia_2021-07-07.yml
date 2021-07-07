@@ -1,11 +1,11 @@
 _type: export
 __export_format: 4
-__export_date: 2021-07-07T05:29:13.940Z
+__export_date: 2021-07-07T05:45:20.525Z
 __export_source: insomnia.desktop.app:v2020.5.2
 resources:
   - _id: req_d4e066606c0640c0bfab8368e53c0c95
     parentId: wrk_4bc1e876170a4036a175b95e8fded8cb
-    modified: 1625616780265
+    modified: 1625636551346
     created: 1624664014827
     url: localhost:1903/users
     name: user
@@ -16,7 +16,7 @@ resources:
       text: |-
         {
         	"name": "henrique",
-        	"email": "henriquess@gmail.com",
+        	"email": "henriqus@gmail.com",
           "password": "201125"
         }
     parameters: []
@@ -44,7 +44,7 @@ resources:
     _type: workspace
   - _id: req_093ebc7a57e64b938d3560b83d3e7c2e
     parentId: wrk_4bc1e876170a4036a175b95e8fded8cb
-    modified: 1624683020207
+    modified: 1625636561218
     created: 1624656092236
     url: localhost:1903/sessions
     name: login
@@ -74,7 +74,7 @@ resources:
     _type: request
   - _id: req_8094024e0a364fbca54d8bde96befd25
     parentId: wrk_4bc1e876170a4036a175b95e8fded8cb
-    modified: 1625626892187
+    modified: 1625636618487
     created: 1624664156541
     url: localhost:1903/cities
     name: city
@@ -84,7 +84,7 @@ resources:
       mimeType: application/json
       text: |-
         {
-        	"name": "Campo Bomss",
+        	"name": "Porto Alegre",
         	"state": "Rio Grande do Sul"
         }
     parameters: []
@@ -98,7 +98,7 @@ resources:
         id: pair_bdaf3afecda6487abd25e3e9684a441a
     authentication:
       type: bearer
-      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MjU2MDAwMTksImV4cCI6MTYyNTY4NjQxOSwic3ViIjoiMSJ9.UKZn9HDVz60o6D86stkqSDeOW0l2azZi2qcIOi_l9VA
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MjU2MzY1MTYsImV4cCI6MTYyNTcyMjkxNiwic3ViIjoiMSJ9.ow723nm-bwgiTf-2NteBhtFcPAkk7xg8-XyWIzIODoU
     metaSortKey: -1622931844459
     isPrivate: false
     settingStoreCookies: true
@@ -110,7 +110,7 @@ resources:
     _type: request
   - _id: req_7f93102a3ebc497cbbad73085ee43003
     parentId: wrk_4bc1e876170a4036a175b95e8fded8cb
-    modified: 1625632742394
+    modified: 1625636591268
     created: 1625618407843
     url: localhost:1903/customers
     name: customer
@@ -124,7 +124,7 @@ resources:
         	"gender": "female",
         	"birth": "1990-12-01",
         	"age": "30",
-        	"city_id": 4
+        	"city_id": 1
         }
     parameters: []
     headers:
@@ -296,9 +296,9 @@ resources:
     _type: request
   - _id: req_7dd0baca26d947d38168189c73885817
     parentId: wrk_4bc1e876170a4036a175b95e8fded8cb
-    modified: 1625624699696
+    modified: 1625636657256
     created: 1625621954581
-    url: localhost:1903/customers/4
+    url: localhost:1903/customers/2
     name: customer by id
     description: ""
     method: GET
@@ -323,9 +323,9 @@ resources:
     _type: request
   - _id: req_5c5c3b2fd91f403c9466802c97bc3922
     parentId: wrk_4bc1e876170a4036a175b95e8fded8cb
-    modified: 1625624857958
+    modified: 1625636662588
     created: 1625624015556
-    url: localhost:1903/customers/6
+    url: localhost:1903/customers/2
     name: customer
     description: ""
     method: DELETE
@@ -350,7 +350,7 @@ resources:
     _type: request
   - _id: req_8fa9f1c3de154b63a391bc64a04f93fe
     parentId: wrk_4bc1e876170a4036a175b95e8fded8cb
-    modified: 1625624392360
+    modified: 1625636673514
     created: 1625624218231
     url: localhost:1903/customers/3
     name: customer
